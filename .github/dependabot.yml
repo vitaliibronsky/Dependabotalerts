@@ -5,6 +5,8 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
+      - dependency-name: "axios"
+        versions: ["*"]
       - dependency-name: "faker"
         versions: ["*"]
       - dependency-name: "xlsx"
