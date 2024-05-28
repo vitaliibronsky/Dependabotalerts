@@ -1,0 +1,33 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    ignore:
+      - dependency-name: "faker"
+        versions: ["*"]
+      - dependency-name: "xlsx"
+        versions: ["*"]
+      - dependency-name: "http-cache-semantics"
+        versions: ["*"]
+      - dependency-name: "tough-cookie"
+        versions: ["*"]
+      - dependency-name: "request"
+        versions: ["*"]
+      - dependency-name: "got"
+        versions: ["*"]
+      - dependency-name: "flat"
+        versions: ["*"]
+      - dependency-name: "apollo-server-core"
+        versions: ["*"]
+      - dependency-name: "apollo-upload-client"
+        versions: ["*"]
+      - dependency-name: "express-jwt"
+        versions: ["*"]
+      - dependency-name: "jsonwebtoken"
+        versions: ["*"]
+      - dependency-name: "@babel/traverse"
+        versions: ["*"]
+      - dependency-name: "jwt-decode"
+        versions: ["*"]
